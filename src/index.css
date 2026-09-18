@@ -1,0 +1,12 @@
+#root {
+  width: 100%; /* Pehle yeh 1126px tha, isko 100% karein */
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  /* border-inline: 1px solid var(--border); <- Is line ko hata dein */
+}
